@@ -1,0 +1,488 @@
+html{
+scroll-behavior: smooth;
+}
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+[class*="col-"]{
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.row{
+    width: 100%; 
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* header design starts here */
+
+header{
+background-color: rgb(57, 152, 207);
+
+}
+
+.header-img{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.header-all{
+    
+    padding: 10px;
+   
+    text-align: center;
+}
+.header-menu ul li{
+    display: block;
+}
+
+.header-menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 55px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.header-menu ul li a:hover{
+   background-color: rgb(104, 106, 109);
+   border-radius: 20px;
+}
+
+
+
+/* header design ends here */
+
+
+
+/* slide show starts */
+
+#slide-section{
+    background-image: url("pcc1.jfif");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.float-container{
+
+ width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.heading h1{
+background-color: rgb(245, 255, 0,0.884);
+padding: 10px;
+font-size: 2.1rem;
+font-family: 'Lobster', cursive;
+width: 60%;
+margin: 0 auto;
+border-radius: 10px;
+transition: .4s;
+
+}
+.heading h1:hover{
+    transform: scale(1.2);
+}
+.heading{
+padding-top: 80px;
+
+}
+.moto h3{
+    background-color: rgb(50, 211, 44);
+    color: white;
+    margin-top: 40px;
+    padding: 15px;
+    width: 50%;
+   text-align: center;
+   margin-left: 340px;
+   margin: 0 auto;
+   border-radius: 10px;
+   transition: .4s;
+   
+
+}
+.moto h3:hover{
+    transform: scale(1.2);
+}
+.moto{
+margin-top: 40px;
+}
+.about-pcc p{
+    background-color: rgb(23, 63, 65);
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 10px;
+    transition: .4s;
+    
+}
+
+.about-pcc p:hover{
+  transform: scale(1.2);
+}
+.about-pcc{
+    margin-top: 40px;
+}
+
+
+/* slide show ends */
+
+
+/* principal message starts here */
+
+.principal-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px; 
+}
+
+
+.mess-pic img{
+width: 200px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+#principal{
+    background-color: rgb(228, 224, 224);
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.mess-heading h1{
+    font-size: 2.5rem;
+   
+}
+
+.mess-desc{
+    text-align: justify;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+
+/* principal message ends here */
+
+
+
+/* card design starts here */
+
+#card-section{
+    margin: 10px;
+    margin-top: 60px;
+}
+
+
+.card-body img{
+    width: 100%;
+    display: block;
+    
+}
+.card-desc{
+    background-color: rgb(201, 198, 198);
+    height: 150px;
+   
+}
+.card-body{
+    text-align: center;
+   
+}
+
+.card-desc h3{
+    margin-top: 30px;
+    background-color: rgb(3, 29, 70);
+    color: white;
+    padding: 10px;
+}
+.card-desc button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.card-desc button:hover{
+   transform: scale(1.2);
+}
+
+.card{
+    transition: .4s;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px 16px rgb(0, 0, 0);
+}
+
+/* card design ends here */
+
+/* footer design starts here */
+
+footer{
+    background-color: rgb(49, 48, 48);
+    color: white;
+    padding: 10px;
+    margin-top: 60px;
+    
+}
+
+.col-3 a{
+ 
+  text-decoration: none;
+  font-family: 'DM Serif Text', serif;
+  padding: 10px;
+  line-height: 30px;
+ color: rgba(255, 255, 255, 0.774);
+ transition: .4s;
+ 
+}
+
+.col-3 a:hover{
+ 
+   text-decoration: underline;
+  transform: scale(1.2);
+
+  }
+  
+.col-3{
+    padding-left: px;
+    text-align: center;
+}
+.col-3 h1{
+    font-family: 'Satisfy', cursive;
+    padding: 10px;
+    
+}
+.apec{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    line-height: 35px;
+}
+.hr{
+width: 50%;
+margin: 0 auto;
+padding: 15px;
+border-bottom:none ;
+border-left: none;
+border-right: none;
+font-weight: bolder;
+}
+.apec a{
+    color: rgb(100, 98, 250);
+    text-decoration: none;
+}
+.apec a:hover{
+    text-decoration: underline;
+    color: rgb(0, 168, 160);
+}
+
+.contract{
+    text-align: center;
+    
+}
+.contract i{
+font-size: 35px;
+
+color: white;
+padding: 10px;
+margin: px;
+/* border: 1px solid white; */
+border-radius: 100%;
+
+}
+.contract h1{
+    padding: 15px;
+}
+.contract i:hover{
+    color: rgb(134, 134, 226);
+}
+
+/* footer design ends here */
+
+/* again footer design starts here */
+
+.again-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.right{
+   
+    float: right;
+}
+.dev-name{
+    color: rgb(179, 179, 179);
+}
+.dev-name:hover{
+    color: rgb(187, 255, 0);
+    text-decoration: underline;
+}
+
+
+
+/* again footer design ends here */
+
+
+
+/* map design starts here */
+
+.map{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+/* map design ends here */
+
+/* for extra small devices  */
+
+@media screen and (min-width:576px){
+
+    .col-s1 {width:8.33%;}
+    .col-s2 {width:16.66%;}
+    .col-s3 {width:25%;}
+    .col-s4 {width:33.33%;}
+    .col-s5 {width:41.66%;}
+    .col-s6 {width:50%;}
+    .col-s7 {width:58.33%;}
+    .col-s8 {width:66.66%;}
+    .col-s9 {width:75%;}
+    .col-s10 {width:83.33%;}
+    .col-s11 {width:91.66%;}
+    .col-s12 {width:100%;}
+    
+    }
+
+    /* for medium screen devices */
+
+@media screen and (min-width:768px){
+    .col-m1 {width:8.33%;}
+    .col-m2 {width:16.66%;}
+    .col-m3 {width:25%;}
+    .col-m4 {width:33.33%;}
+    .col-m5 {width:41.66%;}
+    .col-m6 {width:50%;}
+    .col-m7 {width:58.33%;}
+    .col-m8 {width:66.66%;}
+    .col-m9 {width:75%;}
+    .col-m10 {width:83.33%;}
+    .col-m11 {width:91.66%;}
+    .col-m12 {width:100%;}
+    }
+
+    
+/* for large screen devices */
+
+@media screen and (min-width:992px){
+    .col-1 {width:8.33%;}
+    .col-2 {width:16.66%;}
+    .col-3 {width:25%;}
+    .col-4 {width:33.33%;}
+    .col-5 {width:41.66%;}
+    .col-6 {width:50%;}
+    .col-7 {width:58.33%;}
+    .col-8 {width:66.66%;}
+    .col-9 {width:75%;}
+    .col-10 {width:83.33%;}
+    .col-11 {width:91.66%;}
+    .col-12 {width:100%;}
+
+  .header-img{
+      
+  }
+  .header-logo{
+      text-align: left;
+  }
+
+  .header-menu ul li{
+    display: inline-block;
+    padding: 20px;
+   
+}
+.header-menu ul li a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(223, 185, 178);
+    
+}
+.header-menu ul li a{
+    
+    
+}
+.header-menu{
+    text-align: right;
+}
+.heading h1{
+    font-size: 3rem;
+}
+.float-container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#slide-section{
+    position: relative;
+    
+}
+
+.mess-heading{
+    margin-left: 0px;
+}
+.mess-pic{
+    float: right;
+}
+.mess-desc{
+    float: left;
+}
+.principal-name{
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+.contract{
+    margin-left: 30px;
+}
+.about-pcc p{
+    font-size: 20px;
+}
+.moto h3{
+    font-size: 27px;
+}
+.map{
+    height: 280px;
+}
+    
+}
+
+
